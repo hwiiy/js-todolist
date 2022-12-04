@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-image: url("pastel_image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+    text-align: center;
+  
+      font-family: "Sofia", sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      color: palevioletred;
+      text-shadow: 3px 3px 3px pink;
+}
+
+
+/* input창 관련 */
+
+.input-area {
+  position: relative;
+}
+.task-input {
+  width: 95%;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid pink;
+  margin-right: 5px;
+}
+
+
+.button-add {
+  border: none;
+  width: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: pink;
+  color:white;
+  margin-bottom: 10px;
+}
+.button-add:hover {
+  background-color: palevioletred;
+}
+
+.container {
+  background-color: white;
+
+  min-height: 100vh; /* vh (View height) : 내가 보는 화면의 100% */
+  /* box-shadow css 치면 복붙 가능 */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.task-area {
+  border: 1px solid lightslategray;
+
+}
+
+.task-tabs {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid lightslategray;
+}
+.task-tabs div {
+  padding: 1em;
+}
+
+#underLine {
+  height: 4px;
+  background-color: pink;
+  position: absolute;
+  width: 70px;
+  left: 0;
+  top: 53px;
+  padding: 0;
+}
+
+
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-top:  1px solid lightgray;
+}
+
+.task button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+    margin: 0px 2px;
+}
+
+
+
+.task-done{
+  text-decoration: line-through;
+  color:palevioletred;
+
+}
